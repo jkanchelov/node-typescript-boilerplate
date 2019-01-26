@@ -1,11 +1,13 @@
 {
     "compilerOptions": {
         "target": "esnext",
+        "module": "commonjs",
         "strict": true,
         "declaration": true,
         "allowSyntheticDefaultImports": true,
         "esModuleInterop": true,
-        "outDir": "./dist"
+        "outDir": "./dist",
+        "noImplicitAny": false
     },
-    "include": ["src"]
+    "files": ["./src/index.ts"]
 }

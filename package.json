@@ -1,6 +1,6 @@
 {
     "name": "typescript-library-boilerplate",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "typescript babel boilerplate",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -26,7 +26,8 @@
         "build": "npm run build:types && npm run build:js",
         "build:types": "tsc --emitDeclarationOnly",
         "build:js": "babel src --out-dir dist --extensions \".ts,.tsx\" --source-maps inline",
-        "build:watch": "npm run build && babel src --out-dir dist --extensions \".ts,.tsx\" --source-maps inline --watch"
+        "build:watch": "npm run build && babel src --out-dir dist --extensions \".ts,.tsx\" --source-maps inline --watch",
+        "pretty-check": "npx prettier -c ./src/**/*.ts"
     },
     "devDependencies": {
         "@babel/cli": "^7.4.4",
@@ -35,6 +36,8 @@
         "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
         "@babel/preset-env": "^7.4.5",
         "@babel/preset-typescript": "^7.3.3",
+        "husky": "^2.3.0",
+        "prettier": "^1.17.1",
         "typescript": "^3.5.1"
     }
 }

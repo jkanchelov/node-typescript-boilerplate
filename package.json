@@ -38,6 +38,6 @@
         "@babel/preset-typescript": "^7.3.3",
         "husky": "^2.3.0",
         "prettier": "^1.17.1",
-        "typescript": "^3.5.1"
+        "typescript": "^3.5.2"
     }
 }

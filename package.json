@@ -20,11 +20,11 @@
     "homepage": "https://github.com/jkanchelov/typescript-library-boilerplate#readme",
     "scripts": {
         "prepublish": "npm run build",
+        "pretty-check": "npx prettier -c ./src/**/*.ts",
         "build": "tsc",
         "build:watch": "tsc -w",
-        "pretty-check": "npx prettier -c ./src/**/*.ts",
-        "watch": "npx nodemon dist/index.js",
         "start": "node dist/index.js",
+        "start:watch": "npx nodemon dist/index.js",
         "debug": "npx npm-run-all -p build:watch watch"
     },
     "devDependencies": {

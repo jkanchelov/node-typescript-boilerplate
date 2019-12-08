@@ -20,14 +20,14 @@
   "homepage": "https://github.com/jkanchelov/typescript-library-boilerplate#readme",
   "scripts": {
     "prepublish": "npm run build",
-    "build": "tsc",
-    "build:watch": "tsc -w",
     "pretty-check": "npx prettier -c ./src/**/*.ts",
     "lint-check": "npx eslint ./src/**/*.ts",
     "code-style-check": "npm run lint-check && npm run pretty-check",
+    "build": "tsc",
+    "build:watch": "tsc -w",
     "watch": "npx nodemon dist/index.js",
-    "start": "node dist/index.js",
-    "debug": "npx npm-run-all -p build:watch watch"
+    "start:watch": "npx nodemon dist/index.js",
+    "debug": "npx npm-run-all -p build:watch start:watch"
   },
   "devDependencies": {
     "@types/node": "^12.12.14",

@@ -30,7 +30,7 @@
     "debug": "npx npm-run-all -p build:watch start:watch"
   },
   "devDependencies": {
-    "@types/node": "^12.12.14",
+    "@types/node": "^12.12.16",
     "@typescript-eslint/eslint-plugin": "^2.10.0",
     "@typescript-eslint/parser": "^2.10.0",
     "eslint": "^6.7.2",

@@ -20,9 +20,9 @@
     "homepage": "https://github.com/jkanchelov/node-typescript-boilerplate#readme",
     "scripts": {
         "prepublish": "npm run build",
-        "pretty-check": "npx prettier -c ./src/**/*.ts",
+        "prettier-check": "npx prettier -c ./src/**/*.ts",
         "lint-check": "npx eslint ./src/**/*.ts",
-        "code-style-check": "npm run lint-check && npm run pretty-check",
+        "code-style-check": "npm run lint-check && npm run prettier-check",
         "format": "npx prettier --write src/**",
         "build": "tsc",
         "build:watch": "tsc -w",

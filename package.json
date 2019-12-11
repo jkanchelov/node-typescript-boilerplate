@@ -25,7 +25,6 @@
     "code-style-check": "npm run lint-check && npm run pretty-check",
     "build": "tsc",
     "build:watch": "tsc -w",
-    "watch": "npx nodemon dist/index.js",
     "start:watch": "npx nodemon dist/index.js",
     "debug": "npx npm-run-all -p build:watch start:watch"
   },

@@ -1,4 +1,5 @@
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![Actions Status](https://github.com/jkanchelov/node-typescript-boilerplate/workflows/Node%20CI%20Linux/badge.svg)](https://github.com/jkanchelov/node-typescript-boilerplate/actions) [![Actions Status](https://github.com/jkanchelov/node-typescript-boilerplate/workflows/Node%20CI%20Windows/badge.svg)](https://github.com/jkanchelov/node-typescript-boilerplate/actions) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+
 
 # node-typescript-boilerplate
 

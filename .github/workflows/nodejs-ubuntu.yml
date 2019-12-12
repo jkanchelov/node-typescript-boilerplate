@@ -1,6 +1,6 @@
 name: Node CI Linux
 
-on: [push]
+on: [push, pull_request]
 
 jobs:
     build:

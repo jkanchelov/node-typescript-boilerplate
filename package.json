@@ -1,6 +1,6 @@
 {
     "name": "node-typescript-boilerplate",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "description": "",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -9,6 +9,7 @@
         "url": "git+https://github.com/jkanchelov/node-typescript-boilerplate.git"
     },
     "keywords": [
+        "node.js",
         "typescript",
         "boilerplate"
     ],
